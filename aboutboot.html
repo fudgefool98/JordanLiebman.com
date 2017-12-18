@@ -1,0 +1,82 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+    
+            <title>Sir Patrick Stewart Fan Page</title>
+        <meta charset="utf-8">
+<!--        bootstrap scripts-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+            <style>
+             #aboutimg{
+                    height:200px;
+                    box-shadow: 0 5px 10px 0 , 0 5px 15px 0 ;
+    text-align: center;
+                }
+        
+            </style>
+        
+            <script>
+//                doesn't work!!! :(((
+                
+            $(document).ready(function(){
+                
+                $("#aboutP").load("about.txt");
+    });
+            </script>
+    </head>
+    
+    <body>
+<!--    nav bar goes in all pages-->
+        <!-- NAVIGATION ELEMENTS -->
+ <nav class="navbar navbar-inverse">
+  <div class="container">
+    
+    <ul class="nav navbar-nav">
+     <li ><a href="homeboot.html">Home</a></li>
+     <li><a href="aboutboot.html">About</a></li>
+     <li><a href="quizboot.html">Quiz</a></li>
+     <li><a href="galleryboot.html">Gallery</a></li>
+     <li><a href="login.php">Superfan Zone</a></li>
+
+
+    </ul>
+    
+  </div>
+</nav>
+    <h2 class="text-center">ABOUT</h2> 
+        <div class="container well">
+         
+        <p id="aboutP">LOADING......
+        </p>
+    </div>
+    <div class="container">
+<!--        work on the quote below-->
+        
+        <h2 id="quote">I am not the archetypal leading man. This is mainly for one reason: as you may have noticed, I have no hair.</h2>   <h2>~Sir Patrick Stewart</h2>
+        
+       <img id="aboutimg" class="img-responsive pull-right img-circle " src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Patrick_Stewart_Photo_Call_Logan_Berlinale_2017_%28cropped%29.jpg" alt = "headshot"> 
+    </div>
+<!--
+          Sir Patrick Stewart OBE (born 13 July 1940) is an English actor whose career has included roles on stage, television, and film in a career spanning almost six decades.
+<br><br>
+            Beginning his career with a long run with the Royal Shakespeare Company, he received the 1979 Laurence Olivier Award for Best Actor in a Supporting Role for his performance in Antony and Cleopatra on the West End. Stewart's first major screen roles were in BBC-broadcast television and film during the mid-late 1970s, including Hedda, and the I, Claudius miniseries.
+<br><br>
+            In the 1980s, Stewart began working in American television and film, with roles such as Captain Jean-Luc Picard in Star Trek: The Next Generation and its successor films, as Professor Charles Xavier in the X-Men series of superhero movies, the lead of the Starz TV series Blunt Talk, and voice roles such as CIA Deputy Director Avery Bullock in American Dad! He is a multiple time Golden Globe, Emmy, Screen Actors Guild and Saturn Award nominee. Having remained with the Royal Shakespeare Company, in 2008 Stewart played King Claudius in Hamlet on the West End and won a second Olivier Award.
+<br><br>
+            In 1993, TV Guide named Stewart the Best Dramatic Television Actor of the 1980s. He received a star on the Hollywood Walk of Fame on 16 December 1996. In 2010, Stewart was knighted by Queen Elizabeth II for services to drama.
+            (Wikipedia) 
+        
+-->
+    </body>
+
+
+
+</html>

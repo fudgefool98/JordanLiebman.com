@@ -31,33 +31,31 @@
     <body>
 <!--    nav bar goes in all pages-->
         <!-- NAVIGATION ELEMENTS -->
- <nav class="navbar navbar-inverse">
+ <nav class="navbar navbar-inverse "><!--implement navbar-fixed-top -->
   <div class="container">
     
     <ul class="nav navbar-nav">
-     <li ><a href="homeboot.html">Home</a></li>
-     <li><a href="aboutboot.html">About</a></li>
-     <li><a href="quizboot.html">Quiz</a></li>
-     <li><a href="galleryboot.html">Gallery</a></li>
-     <li><a href="login.php">Superfan Zone</a></li>
-
-  
-
+     <li ><a href="homeboot.html" class="navbar-brand"><span class="glyphicon glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
+     <li><a href="aboutboot.html"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> About</a></li>
+     <li><a href="quizboot.html"><span class="glyphicon glyphicon glyphicon-question-sign" aria-hidden="true"></span> Quiz</a></li>
+        <li><a href="galleryboot.html"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Gallery</a></li>
+     <!--
+        <li><a href="login.php">Superfan Zone</a></li>
+-->
     </ul> 
-   
   </div>
 </nav>
 <!--        end nav-->
 <!--        home-->
         <h1 class="text-center">Jordan Liebman's Resume Website Home Page</h1>
-        <div class="well">
+        <div class="container well">
             <div  class="container text-middle">
                 <div class="row">
-                    <div class="col-sm-3"></div>
-                    <div class="col-sm-6">
-                        <img  class="center-block " id="image" src = "http://ec2-35-166-64-100.us-west-2.compute.amazonaws.com/JordanLiebman.com%20files/Photo%20Assets%20For%20JordanLiebman.com/photo%20For%20Homepage.jpg" alt = "goofy pic">
+                    <div class="col-sm-4 col-md-3"></div>
+                    <div class="col-sm-4 col-md-6">
+                        <img  class="img-responsive center-block"  src = "http://ec2-35-166-64-100.us-west-2.compute.amazonaws.com/JordanLiebman.com%20files/Photo%20Assets%20For%20JordanLiebman.com/photo%20For%20Homepage.jpg" alt = "goofy pic">
                     </div>
-                    <div class="col-sm-3"></div>
+                    <div class="col-sm-4 col-md-3"></div>
                 </div>
             </div>
         </div>

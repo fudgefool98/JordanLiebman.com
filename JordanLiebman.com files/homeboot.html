@@ -10,19 +10,20 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        
+        <!-- end boot-->
+        <!--fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway" rel="stylesheet">
+                <!--END fonts-->
+
             <style>
                 #well{
                     width: 800px;
                 }
                 
-                #image{
-                    height: 500px;
-                }
-                
-        .bg { 
+                /*background image*/      
+        body { 
     /* The image used */
-    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+    background-image: url("http://ec2-35-166-64-100.us-west-2.compute.amazonaws.com/JordanLiebman.com%20files/Photo%20Assets%20For%20JordanLiebman.com/background%20for%20website.jpg");
 
     /* Full height */
     height: 100%; 
@@ -32,6 +33,16 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* END background image*/
+                h1{
+                    font-family: 'Lobster', cursive;
+                    font-size: 46px;
+                }
+                p{
+                    font-family: 'Raleway', sans-serif;
+                    color: azure;
+                    text-shadow: 1px 1px 3px black;
+                }
             </style>
         
             <script>
@@ -40,14 +51,14 @@
     </head>
     
     <body>
-        <div class="bg"></div>
+<!--        <div class="bg"></div>-->
 <!--    nav bar goes in all pages-->
         <!-- NAVIGATION ELEMENTS -->
  <nav class="navbar navbar-inverse "><!--implement navbar-fixed-top -->
   <div class="container">
     
     <ul class="nav navbar-nav">
-     <li ><a href="homeboot.html" class="navbar-brand"><span class="glyphicon glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
+     <li ><a href="homeboot.html"><span class="glyphicon glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
      <li><a href="aboutboot.html"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> About</a></li>
      <li><a href="quizboot.html"><span class="glyphicon glyphicon glyphicon-question-sign" aria-hidden="true"></span> Quiz</a></li>
         <li><a href="galleryboot.html"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Gallery</a></li>
@@ -60,16 +71,16 @@
 <!--        end nav-->
 <!--        home-->
         <h1 class="text-center">Jordan Liebman's Resume Website Home Page</h1>
-        <div class="container well">
+        <div class="container ">
             <div  class="container text-middle">
                 <div class="row">
-                    <div class="col-sm-4 col-md-3"></div>
-                    <div class="col-sm-4 col-md-6">
-                        <img  class="img-responsive center-block"  src = "http://ec2-35-166-64-100.us-west-2.compute.amazonaws.com/JordanLiebman.com%20files/Photo%20Assets%20For%20JordanLiebman.com/photo%20For%20Homepage.jpg" alt = "goofy pic">
-                    </div>
-                    <div class="col-sm-4 col-md-3"></div>
+                    <div class="col-sm-4 col-md-4">
+                    <img  class="img-responsive center-block"  src = "http://ec2-35-166-64-100.us-west-2.compute.amazonaws.com/JordanLiebman.com%20files/Photo%20Assets%20For%20JordanLiebman.com/photo%20For%20Homepage.jpg" alt = "goofy pic"></div>
+                    <div class="col-sm-3 col-md-3"></div>
+                    <div class="col-sm-5 col-md-5"><p>This is where I would write a little something about myself if I were any good at self reflection. However since I'm better at codeing than writing anything more interesting than a lorem ipsum analog I'll settle for this and see how it looks.</p></div>
                 </div>
             </div>
+            
         </div>
 <!--        home end-->
     </body>

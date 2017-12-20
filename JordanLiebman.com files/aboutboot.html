@@ -13,9 +13,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        
+        <!--fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway" rel="stylesheet">
+                <!--END fonts-->
             <style>
-             #aboutimg{
+                
+                #image{
+                    height: 500px;
+                }
+          /*background image*/      
+        body { 
+    /* The image used */
+    background-image: url("http://ec2-35-166-64-100.us-west-2.compute.amazonaws.com/JordanLiebman.com%20files/Photo%20Assets%20For%20JordanLiebman.com/background%20for%20website.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* END background image*/
+                #aboutimg{
                     height:200px;
                     box-shadow: 0 5px 10px 0 , 0 5px 15px 0 ;
     text-align: center;
@@ -24,7 +44,15 @@
                 #document{
                     height: 800px;
                 }
-
+                h1{
+                    font-family: 'Lobster', cursive;
+                    font-size: 46px;
+                }
+                h2{
+                    font-family: 'Raleway', sans-serif;
+                    color: azure;
+                    text-shadow: 1px 1px 3px black;
+                }
             </style>
         
             <script>
@@ -44,7 +72,7 @@
   <div class="container">
     
     <ul class="nav navbar-nav">
-     <li ><a href="homeboot.html" class="navbar-brand"><span class="glyphicon glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
+     <li ><a href="homeboot.html"><span class="glyphicon glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
      <li><a href="aboutboot.html"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> About</a></li>
      <li><a href="quizboot.html"><span class="glyphicon glyphicon glyphicon-question-sign" aria-hidden="true"></span> Quiz</a></li>
         <li><a href="galleryboot.html"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Gallery</a></li>
@@ -55,8 +83,11 @@
   </div>
 </nav>
 <!--        end nav-->
-    <h2 class="text-center">ABOUT</h2> 
-        <div class="container  well col-md-12 h-100"> 
+        
+        
+        
+    <h1 class="text-center">ABOUT</h1> 
+    <div class="container   col-md-12 h-100"> 
 <!-- <p id="aboutP">LOADING......</p> -->
             <div class=" col-md-2"></div>
             <object class="col-md-8" id="document" type="application/pdf" data="Photo Assets For JordanLiebman.com/Jordan's Internship Resume%202017.pdf"></object>
@@ -64,22 +95,16 @@
     </div>
     <div class="container">
 <!--        work on the quote below-->
-        
-        <h2 id="quote">"This thing I said one time."</h2>   <h2>~Jordan Liebman</h2>
-        
+        <div class="container">
+            <h2 id="quote">"This thing I said one time."</h2>
+            <h2>~Jordan Liebman</h2>
+            </div>
+    </div>
+        <div>
+            
        <img id="aboutimg" class="img-responsive pull-right img-circle " src="http://ec2-35-166-64-100.us-west-2.compute.amazonaws.com/JordanLiebman.com%20files/Photo%20Assets%20For%20JordanLiebman.com/photo%20For%20Homepage.jpg"> 
     </div>
-<!--
-          Sir Patrick Stewart OBE (born 13 July 1940) is an English actor whose career has included roles on stage, television, and film in a career spanning almost six decades.
-<br><br>
-            Beginning his career with a long run with the Royal Shakespeare Company, he received the 1979 Laurence Olivier Award for Best Actor in a Supporting Role for his performance in Antony and Cleopatra on the West End. Stewart's first major screen roles were in BBC-broadcast television and film during the mid-late 1970s, including Hedda, and the I, Claudius miniseries.
-<br><br>
-            In the 1980s, Stewart began working in American television and film, with roles such as Captain Jean-Luc Picard in Star Trek: The Next Generation and its successor films, as Professor Charles Xavier in the X-Men series of superhero movies, the lead of the Starz TV series Blunt Talk, and voice roles such as CIA Deputy Director Avery Bullock in American Dad! He is a multiple time Golden Globe, Emmy, Screen Actors Guild and Saturn Award nominee. Having remained with the Royal Shakespeare Company, in 2008 Stewart played King Claudius in Hamlet on the West End and won a second Olivier Award.
-<br><br>
-            In 1993, TV Guide named Stewart the Best Dramatic Television Actor of the 1980s. He received a star on the Hollywood Walk of Fame on 16 December 1996. In 2010, Stewart was knighted by Queen Elizabeth II for services to drama.
-            (Wikipedia) 
-        
--->
+
     </body>
 
 
